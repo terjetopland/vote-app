@@ -14,7 +14,7 @@ import { ThemeObject} from '@/models/themeObject'
 export default class Theme extends Vue {
     text = "Type in your theme of...";
     themeList = [];
-    item = new ThemeObject ("10", "Juløl" );
+    item = new ThemeObject ("10", "Names or items will be listed below." );
     // for brukeren: en box der du skriver inn en 
    //... av objektene som skal stemmes over
    // scriptet: når det skrives inn, skal objektet oppdateres
