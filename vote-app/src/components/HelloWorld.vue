@@ -23,7 +23,7 @@ export default class HelloWorld extends Vue {
   msg!: string;
   getStartedHandler() {
     router.push( { name: 'Theme'})
-    console.log("funkerDet")
+    console.log("doesItWork")
   }
 }
 </script>
