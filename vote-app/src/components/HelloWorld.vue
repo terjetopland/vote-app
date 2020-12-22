@@ -2,11 +2,12 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
+      On this site you can create your own votingchalllenges for you and your friends, family or colleagues.<br>
+      Get started with your own votes.
+      <!--<a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.-->
     </p>
-    <button @click="getStartedHandler">Get started!</button>
+    <button  @click="getStartedHandler">Get started now!</button>
+    <!-- Jeg vil at knappen skal ha en større størrelse, men får det ikke til... -->
   </div>
 </template>
 
@@ -42,6 +43,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #19b333;
 }
 </style>

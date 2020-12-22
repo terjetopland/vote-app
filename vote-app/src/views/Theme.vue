@@ -24,6 +24,7 @@ export default class Theme extends Vue {
        this.item.itemName = target.value
 
        };
+       
     
 }
 </script>
