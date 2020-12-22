@@ -3,7 +3,7 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <router-link :to="{name: 'Theme'}">Theme</router-link> |
-    <router-link :to="{name: 'OddOrEven'}">What Kind of Number?</router-link>
+    <router-link :to="{name: 'OddOrEven'}">Odd or Even</router-link>
   </div>
   <router-view/>
 </template>
