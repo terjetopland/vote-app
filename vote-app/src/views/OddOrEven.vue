@@ -1,5 +1,7 @@
 <template>
-    <h1>Odd Or Even</h1>
+    <div class="oE">
+        <h1>Odd Or Even</h1>
+    </div>
     <input @input="inputHandler" type="tel">
 <p>{{msg}}</p>
 </template>
@@ -30,3 +32,10 @@ export default class OddOrEven extends Vue {
     
 }
 </script >
+
+<style lang="stylus" scoped>
+
+
+
+
+</style>
