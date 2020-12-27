@@ -18,6 +18,7 @@ export default class Theme extends Vue {
     // for brukeren: en box der du skriver inn en 
    //... av objektene som skal stemmes over
    // scriptet: når det skrives inn, skal objektet oppdateres
+   //Når man trykker enter, skal teksten listes opp under
    itemInputHandler = (e: Event) => {
        const target =  e.target as HTMLInputElement;
        console.log(target.value)
