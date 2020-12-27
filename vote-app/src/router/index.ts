@@ -1,4 +1,5 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
+import component from '../views/Home.vue'
 import Home from '../views/Home.vue'
 
 const routes: Array<RouteRecordRaw> = [
@@ -24,6 +25,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/oddoreven',
     name: 'OddOrEven',
     component: () => import('../views/OddOrEven.vue')
+  },
+  {
+    path: '/input',
+    name: 'Input',
+    component: () => import('../views/Input.vue')
   }
 ]
 
